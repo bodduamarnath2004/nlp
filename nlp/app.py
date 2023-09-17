@@ -60,4 +60,4 @@ def predict():
     return render_template('index.html',pred=ttranslate('The news is real',fea[0]))
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run(debug=False,host='0.0.0.0')
